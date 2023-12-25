@@ -45,9 +45,9 @@ boxes.forEach((box)=>{
             turnO=false;
             box.classList.add("forO");
         } else{
+            box.classList.add("forX");
             box.innerText="X";
             turnO=true;
-            box.classList.add("forX");
         }
         box.disabled=true;
         count++;
